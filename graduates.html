@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>优秀校友</title>
+		<link rel="stylesheet" href="style/base.css">
+		<link rel="stylesheet" href="style/list.css">
+		<link rel="stylesheet" href="style/style.css" media="screen" type="text/css" />
+		<style>
+			.warp{width:1000px;margin:50px 100px 0px 200px;}
+			.Tab{position:relative;margin:0 auto;top: 50px; }
+			#Tab .active{  background:#FFF;      }
+			#Tab input{ width:100px; background:#999; height:30px;height:30px;font-weight:bold;}
+			#Tab div{ width:600px; height:400px;  background:#FFF;  border:1px solid #000; display:none; }
+		  </style>
+		  <script>
+			window.onload=function (){
+			  var oDiv=document.getElementById('Tab');
+			  var aBtn=oDiv.getElementsByTagName('input');
+			  var aDiv=oDiv.getElementsByTagName('div');
+			  for(var i=0;i<aBtn.length;i++){     //遍历div1中的按钮
+				aBtn[i].index=i;      //给aBth[]添加自定义属性
+				aBtn[i].onmouseover=function (){
+				  for(var i=0;i<aBtn.length;i++){ //遍历按钮，将class清除
+					aBtn[i].className='';
+					aDiv[i].style.display='none';
+				  }
+				  this.className='active';
+				  aDiv[this.index].style.display='block';
+				}
+			  }
+			}
+		  </script>
+	</head>
+	<body>
+		<div class="tzFirHeader">
+			<div class="wrapper midHeader">
+				<p>您好，欢迎来到云财中华学院！</p>
+				<h1><a href="#"><img src="images/logo.png" alt=""></a></h1>
+				<div class="container">
+				   <nav class="menu">
+					   <ul>
+						   <li><a href="index.html">学院首页</a></li>
+						   <li>
+						     <a href="#">学院概况</a>
+						   <ul class="sub">
+							  <li> <a href="#">学院简介</a></li>
+							  <li> <a href="#">主要荣誉</a></li>
+						   </ul>
+						   </li>
+						   <li>
+							 <a href="#">团学活动</a>
+							 <ul class="sub">
+							<li><a href="#">校企合作</a></li>
+							<li><a href="#">国际合作</a></li>
+							</ul>
+						</li>
+						   <li><a href="#">就业服务</a>
+							<ul class="sub">
+								<li><a href="#">政策法规</a></li>
+								<li><a href="#">德育教育</a></li>
+								</ul>
+						   <li><a href="#">师资队伍</a>
+							<ul class="sub">
+								<li><a href="#">骨干教师</a></li>
+								<li><a href="#">高级讲师</a></li>
+								</ul>
+						   <li><a href="#">学院通知</a>
+							<ul class="sub">
+								<li><a href="graduates.html">优秀校友</a></li>
+								
+								</ul>
+						   <li><a href="#">院务管理</a>
+							<ul class="sub">
+								<li><a href="newsList.html">学校新闻</a></li>
+								<li><a href="#">通知公告</a></li>
+								</ul>
+						   <li><a href="#">党建工作</a>
+							<ul class="sub">
+								<li><a href="#">顶岗实习</a></li>
+								<li><a href="#">招生简章</a></li>
+								</ul>
+					   </ul>
+				   </nav>
+				</div>
+			</div>
+		</div>
+		<div class='card-holder'>
+			<div class='card-wrapper'>
+			  <a href='index.html'>
+				<div class='card bg-01'>
+				  <span class='card-content'>学院首页</span>
+				</div>
+			  </a>
+			</div>
+			<div class='card-wrapper'>
+				<a href='graduates.html'>
+				  <div class='card bg-02'>
+					<span class='card-content'>优秀校友</span>
+				  </div>
+			  </a>
+			</div>
+			<div class='card-wrapper'>
+			  <a href='newsList.html'>
+				<div class='card bg-03'>
+				  <span class='card-content'>新闻列表</span>
+				</div>
+			  </a>
+			</div>
+			<div class='card-wrapper'>
+			  <a href='#'>
+				<div class='card bg-04'>
+				  <span class='card-content'>学院通知</span>
+				</div>
+			  </a>
+			</div>
+			<div class='card-wrapper'>
+			  <a href='#'>
+				<div class='card bg-05'>
+				  <span class='card-content'>党建工作</span>
+				</div>
+			  </a>
+			</div>
+			<div class='card-wrapper'>
+			  <a href='#'>
+				<div class='card bg-06'>
+				  <span class='card-content'>院务通知</span>
+				</div>
+			  </a>
+			</div>
+		  </div>
+		  
+		  <div style="text-align:center;clear:both;">
+		  <script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
+		  <script src="/follow.js" type="text/javascript"></script>
+		  </div>
+		  
+				  <div class="tzFirArticle1">
+					  <div class="clearfix wrapper">
+						  <div class="fl section">
+							  <h2>人生在这里<span>起航</span></h2>
+							  <p>云南财经大学中华职业学院隶属云南财经大学的正式教学单位，属公立大学，招生层次本科二批。学院具有实力雄厚的“双师型”师资队伍，并拥有共享云南财经大学1000多名专职教师（副教授以上职称400多人）的优质师资队伍和高素质的管理队伍。</p>
+						  </div>
+						  <img src="images/img01.jpg" alt="" class="fl">
+						  
+					  </div>
+		<img src="images/bg.jpg" alt="" class="bg">
+		<div class="tzFirArticle2">
+			<div class="wrapper tzNewsArticle txGraArticle">
+				<h2>优秀校友&nbsp;<span>Excellent Alumni</span></h2>
+				 <div class="warp">
+        <div id="Tab">
+			<h1><a href="#"><img src="images/logo.png" ></a></h1>
+                   <input class="active" type="button" value="罗西" />
+                  <input type="button" value="鲁宝键" />
+                  <input type="button" value="赵颖" />
+                  <input type="button" value="曹阳" />
+            
+				  
+				  <div style="display:block;"><img src="images/lc2.png">	
+					<h2><span>为爱跨山海</span> <span>做自己心中的英雄</span></h2>
+				<p><b>“没有语言能够形容我的感动，我爱孩子们，我爱中国！” 这是 Rouhieh 最常说的一句话。Rouhieh Tabibbzadege（罗西·泰比扎德甘），云南省人民政府彩云奖获得者、长期致力于公益活动的我校加拿大籍教师，一个在我校任教十余载，把自己“嫁”给中国，自我比喻为“女版白求恩”的“加拿大妈妈”。 先后去过广东、吉林、重庆等中国的很多地方，2004 年 Rouhieh 来到了昆明，并在这里扎下根来。“在昆明我可以看见中国发展历程的缩影，同时云南也是全中国少数民族种类最多的省份，我喜欢这些民族文化，我认为民族的也是世界的，所以昆明成为了我的第二故乡。”Rouhieh 说。或许是缘分让 Rouhieh 与昆明相遇，从此这座城市里有了一个既热情又充满爱心的“老外”， 她也用自己的行动带给了昆明人一份温暖的记忆。</b></p>
+				</div>
+					<div style="display:block;"><img src="images/lbj.jpg">	
+					<h2><span>以微笑迎接今天</span> <span>明天才会更美好</span></h2>
+                    <b> 内心的孤独与无助也曾吞噬过他，但是坚强的他没向命运低头，而是选择了自立自强。中华职业学院2016级计算机科学与技术专业学生鲁宝键，这一路走来，走得并不容易，走得并不轻松。他顽强地克服了身体一级残疾的缺陷，虽然每天都要靠轮椅才能行动，虽然说话口齿不清，他却以积极的态度过好每一天，在残酷的命运挑战面前，没有沮丧和沉沦，以顽强的毅力和恒心，经受住了考验，不断拓展生命的广度和宽度。</b>
+				  </div>
+				  <div style="display:block;"><img src="images/zy.jpg">	
+					<h2><span>以创新创业的生动实践书写火热的青春篇章</span></h2>
+				<p><b>在过去一年多的时间里，赵颖作为负责人带领云南财经大学大学生创新创业项目“教练通——驾培新模式的引领者”，获得第五届中国“互联网+”大学生创新创业大赛国家铜奖、云南省金奖、季军，实现了学校在该赛事上的历史性突破，获了第四届全国财经院校创新创业大赛全国一等奖。成绩的背后，是烧脑、争辩、压力与泪水，是七个月马不停蹄的高强度备战。追求全面发展一直是赵颖的努力目标。她，是第65期党校优秀学员，是校记者团骨干成员，是传媒学院团委宣传部部长，是新闻18-2班团支书，综合测评班级第一的成绩是她学习实践的最好鉴证。</b></p>
+				</div>
+				<div style="display:block;"><img src="images/cy.jpg">	
+					<h2><span>做有激情、有理想、勇奋斗、敢担当的追梦青年</span> </h2>
+				<p><b> “无论是成功还是失败，都会让自己受益匪浅”。国际工商学院2016级国际经济与贸易（中美合作）专业本科生曹阳同学认为，“社会实践是在服务他人的过程中接触社会，了解国情，增强自身社会责任感与历史使命感，在帮助别人的过程中，遇见更好的自己。”数次志愿服务和社会实践经历，多篇社会实践成果报告转化，是他在云财成长中的收获。把“好学笃行”作为自立之本，“厚德致远”作为毕生追求，这个阳光大男孩在实践中不断突破自我。</b></p>
+				</div>
+            
+        </div>
+    </div>
+			</div>
+		</div>
+		<div class="tzFooter">
+			<div class="foot">
+				 Copyright&copy;  2020 云南财经大学中华职业学院</br> 
+				 版权所有云南财经大学中华职业学院&nbsp;&nbsp;联系电话：123456789  &nbsp;&nbsp; 传真：01234567&nbsp;&nbsp; E-mail:1234567@qq.com      
+			</div>
+		</div>
+	</body>
+</html>
